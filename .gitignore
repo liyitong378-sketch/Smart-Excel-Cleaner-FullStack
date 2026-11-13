@@ -1,0 +1,26 @@
+# ================= Java 后端 =================
+smart-clean-backend/target/
+smart-clean-backend/.idea/
+*.iml
+
+# ================= Vue 前端 =================
+smart-clean-frontend/node_modules/
+smart-clean-frontend/dist/
+smart-clean-frontend/.vscode/
+smart-clean-frontend/.idea/
+
+# ================= Python 引擎 =================
+python-engine/__pycache__/
+python-engine/venv/
+*.pyc
+
+# ================= 其他杂物 =================
+# 不上传用户上传的测试文件
+smart-clean-backend/uploads/
+# 绝对不上传包含数据库密码的配置文件（建议你自己保存好，并在项目里建一个 application.example.yml 代替）
+# 如果你用的是 application.yml，且密码不敏感，可以去掉下面这行
+# smart-clean-backend/src/main/resources/application.yml
+
+# 操作系统产生的垃圾文件
+.DS_Store
+Thumbs.db
